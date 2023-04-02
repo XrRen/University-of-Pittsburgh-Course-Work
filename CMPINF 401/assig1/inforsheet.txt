@@ -1,0 +1,37 @@
+CMPINF 0401 Assignment Information Sheet
+ 
+You must submit an information sheet with every assignment. It does not have to be
+this exact sheet but it should have all of the information shown here.  Also be 
+sure to submit all materials following the procedures described on the submission
+procedures page.
+
+Name:__Xirui______ Assignment #: _Assigment 1___
+
+Program Due Date: _9/23____
+
+Handed in Date: __9/23______ 
+
+Source code file name(s): 
+
+Assig1.java
+
+Other file name(s) (if relevant):  N/A
+Does your program compile without error?: yes 
+
+If not, what is/are the error(s)?:
+
+N/A
+
+
+Does your program run without error?: yes 
+
+If not, what is/are the error(s) and which parts of your program run correctly?:
+
+N/A
+
+
+Additional comments (including problems and extra credit):
+
+I did the extra credit for show the user their itemized overall savings after they got the challenge question right.
+
+ 

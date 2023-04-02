@@ -1,0 +1,529 @@
+> java Assig2
+Dictionary file name? > dictionary.txt
+Welcome to the Word Changer Program
+
+Here is how to play:
+        For each round you will see two randomly selected words.
+        You will have 1 minute to convert the first word to the second
+        using only the following changes:
+                Insert a character at position k (with k starting at 0)
+                Delete a character at position k (with k starting at 0)
+                Change a character at position k (with k starting at 0)
+        For example, to change the word 'WEASEL' to 'SEASHELL' you could
+        do the following:
+                1) Change 'W' at position 0 to 'S': SEASEL
+                2) Insert 'H' at position 4: SEASHEL
+                3) Insert 'L' at position 7: SEASHELL
+        Your goal is to make this conversion with the fewest changes.  Note
+        that there may be more than one way to achieve this goal.
+Please enter your name (or <Enter> to quit): Herbert
+Welcome New Player!
+Would you like to try? (y/n) y
+Your goal is to convert 'resonates' to 'shipmates' in 5 edits.
+
+Index:        0123456789
+------        ----------
+Current Word: resonates
+Word 2:       shipmates
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 0 s
+Index:        0123456789
+------        ----------
+Current Word: sesonates
+Word 2:       shipmates
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 1 h
+Index:        0123456789
+------        ----------
+Current Word: shsonates
+Word 2:       shipmates
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 2 i
+Index:        0123456789
+------        ----------
+Current Word: shionates
+Word 2:       shipmates
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 3 p
+Index:        0123456789
+------        ----------
+Current Word: shipnates
+Word 2:       shipmates
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 4 m
+Congratulations!
+You have converted:      resonates
+into:                    shipmates
+in 5 edits
+You used the minimal number of changes -- great job!
+Here are your current stats:
+        Name: Herbert
+        Rounds: 1
+        Successes: 1
+        Failures: 0
+        Ratio (successes only): 1.0
+
+Would you like to try again? (y/n) y
+Your goal is to convert 'sketchily' to 'tableaux' in 9 edits.
+
+Index:        0123456789
+------        ----------
+Current Word: sketchily
+Word 2:       tableaux
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > d 8
+Index:        0123456789
+------        ----------
+Current Word: sketchil
+Word 2:       tableaux
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 0 t
+Index:        0123456789
+------        ----------
+Current Word: tketchil
+Word 2:       tableaux
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 1 a
+Index:        0123456789
+------        ----------
+Current Word: taetchil
+Word 2:       tableaux
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 2 b
+Index:        0123456789
+------        ----------
+Current Word: tabtchil
+Word 2:       tableaux
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 3 l
+Sorry but time has expired!
+After 4 changes your final guess was tabtchil
+Here are your current stats:
+        Name: Herbert
+        Rounds: 2
+        Successes: 1
+        Failures: 1
+        Ratio (successes only): 1.0
+
+Would you like to try again? (y/n) y
+Your goal is to convert 'crediting' to 'degrease' in 8 edits.
+
+Index:        0123456789
+------        ----------
+Current Word: crediting
+Word 2:       degrease
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > d 0
+Index:        0123456789
+------        ----------
+Current Word: rediting
+Word 2:       degrease
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 0 d
+Index:        0123456789
+------        ----------
+Current Word: dediting
+Word 2:       degrease
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 2 g
+Index:        0123456789
+------        ----------
+Current Word: degiting
+Word 2:       degrease
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 3 r
+Index:        0123456789
+------        ----------
+Current Word: degrting
+Word 2:       degrease
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 4 e
+Index:        0123456789
+------        ----------
+Current Word: degreing
+Word 2:       degrease
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 5 a
+Index:        0123456789
+------        ----------
+Current Word: degreang
+Word 2:       degrease
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 6 s
+Index:        0123456789
+------        ----------
+Current Word: degreasg
+Word 2:       degrease
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 7 e
+Congratulations!
+You have converted:      crediting
+into:                    degrease
+in 8 edits
+You used the minimal number of changes -- great job!
+Here are your current stats:
+        Name: Herbert
+        Rounds: 3
+        Successes: 2
+        Failures: 1
+        Ratio (successes only): 1.0
+
+Would you like to try again? (y/n) y
+Your goal is to convert 'teacloth' to 'couch' in 6 edits.
+
+Index:        0123456789
+------        ----------
+Current Word: teacloth
+Word 2:       couch
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 0 c
+Index:        0123456789
+------        ----------
+Current Word: ceacloth
+Word 2:       couch
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 1 o
+Index:        0123456789
+------        ----------
+Current Word: coacloth
+Word 2:       couch
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 2 u
+Index:        0123456789
+------        ----------
+Current Word: coucloth
+Word 2:       couch
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 4 h
+Index:        0123456789
+------        ----------
+Current Word: couchoth
+Word 2:       couch
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > d 5
+Index:        0123456789
+------        ----------
+Current Word: couchth
+Word 2:       couch
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > d 5
+Index:        0123456789
+------        ----------
+Current Word: couchh
+Word 2:       couch
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > d 5
+Congratulations!
+You have converted:      teacloth
+into:                    couch
+in 7 edits
+You used 1 extra changes.  See if you can do the
+optimal number next time!
+Here are your current stats:
+        Name: Herbert
+        Rounds: 4
+        Successes: 3
+        Failures: 1
+        Ratio (successes only): 1.0526315789473684
+
+Would you like to try again? (y/n) n
+
+Thanks for playing Herbert
+
+Please enter your name (or <Enter> to quit): Marge
+Welcome New Player!
+Would you like to try? (y/n) y
+Your goal is to convert 'wiles' to 'boded' in 4 edits.
+
+Index:        0123456789
+------        ----------
+Current Word: wiles
+Word 2:       boded
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 0 b
+Index:        0123456789
+------        ----------
+Current Word: biles
+Word 2:       boded
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 1 o
+Index:        0123456789
+------        ----------
+Current Word: boles
+Word 2:       boded
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 2 d
+Index:        0123456789
+------        ----------
+Current Word: bodes
+Word 2:       boded
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 4 d
+Congratulations!
+You have converted:      wiles
+into:                    boded
+in 4 edits
+You used the minimal number of changes -- great job!
+Here are your current stats:
+        Name: Marge
+        Rounds: 1
+        Successes: 1
+        Failures: 0
+        Ratio (successes only): 1.0
+
+Would you like to try again? (y/n) y
+Your goal is to convert 'horrible' to 'shout' in 7 edits.
+
+Index:        0123456789
+------        ----------
+Current Word: horrible
+Word 2:       shout
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 0 s
+Index:        0123456789
+------        ----------
+Current Word: sorrible
+Word 2:       shout
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 1 h
+Index:        0123456789
+------        ----------
+Current Word: shrrible
+Word 2:       shout
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 2 o
+Index:        0123456789
+------        ----------
+Current Word: shorible
+Word 2:       shout
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 3 u
+Index:        0123456789
+------        ----------
+Current Word: shouible
+Word 2:       shout
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 4 t
+Index:        0123456789
+------        ----------
+Current Word: shoutble
+Word 2:       shout
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > d 5
+Index:        0123456789
+------        ----------
+Current Word: shoutle
+Word 2:       shout
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > d 5
+Index:        0123456789
+------        ----------
+Current Word: shoute
+Word 2:       shout
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > d 5
+Congratulations!
+You have converted:      horrible
+into:                    shout
+in 8 edits
+You used 1 extra changes.  See if you can do the
+optimal number next time!
+Here are your current stats:
+        Name: Marge
+        Rounds: 2
+        Successes: 2
+        Failures: 0
+        Ratio (successes only): 1.0909090909090908
+
+Would you like to try again? (y/n) n
+
+Thanks for playing Marge
+
+Please enter your name (or <Enter> to quit): Herbert
+Welcome Back Herbert
+Would you like to try? (y/n) y
+Your goal is to convert 'oncology' to 'deionised' in 8 edits.
+
+Index:        0123456789
+------        ----------
+Current Word: oncology
+Word 2:       deionised
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 0 d
+Index:        0123456789
+------        ----------
+Current Word: dncology
+Word 2:       deionised
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 1 e
+Index:        0123456789
+------        ----------
+Current Word: decology
+Word 2:       deionised
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 2 i
+Index:        0123456789
+------        ----------
+Current Word: deiology
+Word 2:       deionised
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 4 l
+Index:        0123456789
+------        ----------
+Current Word: deiology
+Word 2:       deionised
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 4 n
+Sorry but time has expired!
+After 4 changes your final guess was deiology
+Here are your current stats:
+        Name: Herbert
+        Rounds: 5
+        Successes: 3
+        Failures: 2
+        Ratio (successes only): 1.0526315789473684
+
+Would you like to try again? (y/n) n
+
+Thanks for playing Herbert
+
+Please enter your name (or <Enter> to quit):
+Good-bye!
+>
+> type Herbert.txt
+5
+3
+19
+20
+> type Marge.txt
+2
+2
+11
+12
+

@@ -1,0 +1,39 @@
+CMPINF 0401 Assignment Information Sheet
+ 
+You must submit an information sheet with every assignment. It does not have to be
+this exact sheet but it should have all of the information shown here.  Also be 
+sure to submit all materials following the procedures described on the submission
+procedures page.
+
+Name:__Xirui______ Assignment #: _Assigment 4___
+
+Program Due Date: _12/2____
+
+Handed in Date: __12/2______ 
+
+Source code file name(s): 
+
+ArrayCounter.java
+LinkedCounter.java
+CountInterface.java
+Assig4Test.java
+
+Other file name(s) (if relevant):  N/A
+Does your program compile without error?: yes 
+
+If not, what is/are the error(s)?:
+
+N/A
+
+
+Does your program run without error?: yes 
+
+If not, what is/are the error(s) and which parts of your program run correctly?:
+
+N/A
+
+
+Additional comments (including problems and extra credit):
+
+
+ 

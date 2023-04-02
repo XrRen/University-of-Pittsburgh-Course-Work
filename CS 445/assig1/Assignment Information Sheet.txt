@@ -1,0 +1,60 @@
+CS 0445 Assignment Information Sheet
+
+You must electronically submit an information sheet with every assignment. Also be sure to submit all materials following the procedures described on the submission procedures page.
+
+Name:___Xirui Ren_____ Assignment #: ___Assignment 1____
+
+Lecture Day and Time: ____Tue/Thu 9:30 - 10:45_____
+
+Recitation Day and Time: ____Fri, 2:00 - 2:50______
+
+Program Due Date: _____2/3____
+
+Handed in Date: _____2/2_____ 
+
+Source code (.java) file name(s):
+
+_____
+DequeInterface.java 
+Indexable.java 
+IndexableAddRemove.java
+Assig1A.java 
+Assig1B.java
+MyDeque.java 
+IndexDeque.java 
+IndexAddRemoveDeque.java
+___________
+
+Input / output file name(s) (if applicable): ___________________
+
+________________________________________________________________
+
+________________________________________________________________
+
+Does your program compile without error?: __Yes___ 
+
+If not, what is/are the error(s)?:
+
+________________________________________________________________
+
+________________________________________________________________
+
+________________________________________________________________
+
+Does your program run without error?: __Yes__ 
+
+If not, what is/are the error(s) and which parts of your program run correctly?:
+
+________________________________________________________________
+
+________________________________________________________________
+
+________________________________________________________________
+
+________________________________________________________________
+
+Additional comments (including problems and extra credit):
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________
+________________________________________________________________

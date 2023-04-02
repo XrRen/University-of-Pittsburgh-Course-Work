@@ -1,0 +1,54 @@
+CS 0445 Assignment Information Sheet
+ 
+You must electronically submit an information sheet with every assignment. Also be sure to submit all materials following the procedures described on the submission procedures page.
+
+Name:____Xirui Ren________ Assignment #: __Assig3____
+
+Lecture Day and Time: ____Tue/Thu 9:30-10:45______
+
+Recitation Day and Time: ____Fri 2:00-2:50____
+
+Program Due Date: ____March 22_____
+
+Handed in Date: _____March 22______ 
+
+Source code (.java) file name(s):
+
+Assig3.java
+
+Input / output file name(s) (if applicable): 
+
+sample.txt
+sample2.txt
+sample3.txt
+sample4.txt
+
+Does your program compile without error?: ___Yes_____ 
+
+If not, what is/are the error(s)?:
+
+N/A_______________________________________________________
+
+________________________________________________________________
+
+________________________________________________________________
+
+Does your program run without error?: ___Yes_____ 
+
+If not, what is/are the error(s) and which parts of your program run correctly?:
+
+N/A
+________________________________________________________________
+
+________________________________________________________________
+
+________________________________________________________________
+
+Additional comments (including problems and extra credit):
+
+N/A
+________________________________________________________________
+
+________________________________________________________________
+
+________________________________________________________________

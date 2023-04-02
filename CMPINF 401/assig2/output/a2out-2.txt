@@ -1,0 +1,395 @@
+> java Assig2
+Dictionary file name? > smallDict.txt
+Welcome to the Word Changer Program
+
+Here is how to play:
+        For each round you will see two randomly selected words.
+        You will have 1 minute to convert the first word to the second
+        using only the following changes:
+                Insert a character at position k (with k starting at 0)
+                Delete a character at position k (with k starting at 0)
+                Change a character at position k (with k starting at 0)
+        For example, to change the word 'WEASEL' to 'SEASHELL' you could
+        do the following:
+                1) Change 'W' at position 0 to 'S': SEASEL
+                2) Insert 'H' at position 4: SEASHEL
+                3) Insert 'L' at position 7: SEASHELL
+        Your goal is to make this conversion with the fewest changes.  Note
+        that there may be more than one way to achieve this goal.
+Please enter your name (or <Enter> to quit): Fritz
+Welcome New Player!
+Would you like to try? (y/n) y
+Your goal is to convert 'rodents' to 'princess' in 6 edits.
+
+Index:        0123456789
+------        ----------
+Current Word: rodents
+Word 2:       princess
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > i 0 p
+Index:        0123456789
+------        ----------
+Current Word: prodents
+Word 2:       princess
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 2 i
+Index:        0123456789
+------        ----------
+Current Word: pridents
+Word 2:       princess
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > i 3 n
+Index:        0123456789
+------        ----------
+Current Word: prindents
+Word 2:       princess
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > r 4 c
+Your option was invalid.  Please re-enter.
+Index:        0123456789
+------        ----------
+Current Word: prindents
+Word 2:       princess
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 4 c
+Index:        0123456789
+------        ----------
+Current Word: princents
+Word 2:       princess
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 6 s
+Index:        0123456789
+------        ----------
+Current Word: princests
+Word 2:       princess
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > d 7
+Congratulations!
+You have converted:      rodents
+into:                    princess
+in 6 edits
+You used the minimal number of changes -- great job!
+Here are your current stats:
+        Name: Fritz
+        Rounds: 1
+        Successes: 1
+        Failures: 0
+        Ratio (successes only): 1.0
+
+Would you like to try again? (y/n) y
+Your goal is to convert 'revenge' to 'swordsman' in 9 edits.
+
+Index:        0123456789
+------        ----------
+Current Word: revenge
+Word 2:       swordsman
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 0 s
+Index:        0123456789
+------        ----------
+Current Word: sevenge
+Word 2:       swordsman
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 1 w
+Index:        0123456789
+------        ----------
+Current Word: swvenge
+Word 2:       swordsman
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 2 o
+Index:        0123456789
+------        ----------
+Current Word: swoenge
+Word 2:       swordsman
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 3 r
+Index:        0123456789
+------        ----------
+Current Word: swornge
+Word 2:       swordsman
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 4 d
+Index:        0123456789
+------        ----------
+Current Word: swordge
+Word 2:       swordsman
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 5 s
+Index:        0123456789
+------        ----------
+Current Word: swordse
+Word 2:       swordsman
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 6 m
+Index:        0123456789
+------        ----------
+Current Word: swordsm
+Word 2:       swordsman
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > i 7 a
+Index:        0123456789
+------        ----------
+Current Word: swordsma
+Word 2:       swordsman
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > i 8 n
+Congratulations!
+You have converted:      revenge
+into:                    swordsman
+in 9 edits
+You used the minimal number of changes -- great job!
+Here are your current stats:
+        Name: Fritz
+        Rounds: 2
+        Successes: 2
+        Failures: 0
+        Ratio (successes only): 1.0
+
+Would you like to try again? (y/n) y
+Your goal is to convert 'brute' to 'castle' in 4 edits.
+
+Index:        0123456789
+------        ----------
+Current Word: brute
+Word 2:       castle
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 0 c
+Index:        0123456789
+------        ----------
+Current Word: crute
+Word 2:       castle
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 1 a
+Index:        0123456789
+------        ----------
+Current Word: caute
+Word 2:       castle
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 2 s
+Index:        0123456789
+------        ----------
+Current Word: caste
+Word 2:       castle
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > i 4 l
+Congratulations!
+You have converted:      brute
+into:                    castle
+in 4 edits
+You used the minimal number of changes -- great job!
+Here are your current stats:
+        Name: Fritz
+        Rounds: 3
+        Successes: 3
+        Failures: 0
+        Ratio (successes only): 1.0
+
+Would you like to try again? (y/n) y
+Your goal is to convert 'swamp' to 'unusual' in 6 edits.
+
+Index:        0123456789
+------        ----------
+Current Word: swamp
+Word 2:       unusual
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 0 u
+Index:        0123456789
+------        ----------
+Current Word: uwamp
+Word 2:       unusual
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 1 n
+Index:        0123456789
+------        ----------
+Current Word: unamp
+Word 2:       unusual
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > i 2 u
+Index:        0123456789
+------        ----------
+Current Word: unuamp
+Word 2:       unusual
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 3 s
+Index:        0123456789
+------        ----------
+Current Word: unusmp
+Word 2:       unusual
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 4 u
+Sorry but time has expired!
+After 4 changes your final guess was unusmp
+Here are your current stats:
+        Name: Fritz
+        Rounds: 4
+        Successes: 3
+        Failures: 1
+        Ratio (successes only): 1.0
+
+Would you like to try again? (y/n) y
+Your goal is to convert 'despair' to 'prince' in 7 edits.
+
+Index:        0123456789
+------        ----------
+Current Word: despair
+Word 2:       prince
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 0 p
+Index:        0123456789
+------        ----------
+Current Word: pespair
+Word 2:       prince
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 1 r
+Index:        0123456789
+------        ----------
+Current Word: prspair
+Word 2:       prince
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 2 i
+Index:        0123456789
+------        ----------
+Current Word: pripair
+Word 2:       prince
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 3 n
+Index:        0123456789
+------        ----------
+Current Word: prinair
+Word 2:       prince
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 4 c
+Index:        0123456789
+------        ----------
+Current Word: princir
+Word 2:       prince
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > c 5 e
+Index:        0123456789
+------        ----------
+Current Word: princer
+Word 2:       prince
+Here are your options:
+        C k v -- Change char at location k to value v
+        I k v -- Insert char at location k with value v
+        D k   -- Delete char at location k
+Option choice > d 6
+Congratulations!
+You have converted:      despair
+into:                    prince
+in 7 edits
+You used the minimal number of changes -- great job!
+Here are your current stats:
+        Name: Fritz
+        Rounds: 5
+        Successes: 4
+        Failures: 1
+        Ratio (successes only): 1.0
+
+Would you like to try again? (y/n) y
+Sorry but you have run out of words to try!
+
+Thanks for playing Fritz
+
+Please enter your name (or <Enter> to quit):
+Good-bye!
+> 
+> type Fritz.txt
+5
+4
+26
+26
+
