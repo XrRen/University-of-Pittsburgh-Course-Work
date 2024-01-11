@@ -1,0 +1,28 @@
+- Name: Xirui Ren
+- Pitt Username: xir19
+- Pitt e-mail address: xir19@pitt.edu
+
+- Anything that works: add, sub, nand, or, addui, addi, div, mul, srlv, sllv, mflo, mfhi, lw, sw, li, bp, bn, bx, bz, jr, jal, j, halt, put. All of the instructions work.
+- Any known problems with your design: N/A
+
+- The purpose of each control signal with sufficient detail that the grader can understand your approaches without further inspecting the circuit: 
+	-ALUOp: the signal for the ALU to do different arithmetic operations.
+	- ALUSor: ALU Source, the signal for determining adding a signed or unsigned number.
+	- branch: the control signal to determine whether we will branch or not.
+	- immInvo: the control signal to determine any operation that will use immediates. 
+	- RegWrite: the control signal that determines any operation that will write into a register or not. 
+	-nand: the control signal to determine whether we will nand or not.
+	- mflo: the control signal to determine whether we will load the lo into our register or not.
+	- mfhi: the control signal to determine whether we will load the hi into our register or not.
+	- lw: the control signal to determine whether we are going to load data in a memory space into a register or not
+	- sw: the control signal to determine whether we are going to write data in a register into a memory space or not
+	- li: the control signal to load an immediate into a register
+	- bp: the control signal to determine the condition for branching
+	- bn: the control signal to determine the condition for branching
+	- bx: the control signal to determine the condition for branching
+	- bz: the control signal to determine the condition for branching
+	- jr: the control signal to determine whether we are going to jump to an address in a register
+	- jal: the control signal to determine whether we will jump and link or not.
+	- j: the control signal to determine are going to jump or not
+	- halt: the control signal to stop fetching
+	- put: the control signal for displaying the data in a register

@@ -1,0 +1,12 @@
+C.1: What is the word value of a exactly as it is listed in the Data Segment?
+0x78563412
+C.2: What is the address of the byte with the value 0x56?
+52
+C.3: What is the word value of b exactly as it is listed in the Data Segment, now?
+0x12345678
+C.4: In the hexadecimal number 0x12345678, which byte (report its value) is the most significant byte?
+0x12
+C.5: Which byte (report its value) of b has the greatest address?
+0x78
+C.6: Is the simulator little endian or big endian? How can you tell?
+It's big endain because it starts with the big end

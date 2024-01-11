@@ -1,0 +1,12 @@
+B.1: What is the address of x?
+0x10010000
+B.2: What is the address of y?
+0x10010002
+B.3: What is the address of z?
+0x10010004
+B.4: What is the number printed out for x when read as a word?
+2752554
+B.5: What happens when trying to read variable y as a word?
+an error would occur when trying ti read y as a word
+B.6: When writing back the value of x as a word, what is the resulting value of y?
+0

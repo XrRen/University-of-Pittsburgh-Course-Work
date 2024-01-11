@@ -1,0 +1,10 @@
+B.1: How many unique values can a 16-bit immediate value hold?
+2^16 which is 65,536 values
+B.2: Immediate are signed 2’s complement numbers, thus they can be positive or negative. Given your previous answer, what is the possible range of values that can be represented?
+-32768 to +32767
+B.3: How many total bits is the value 0xB357C0DE?
+32 bits
+B.4: Which two actual instructions did the li pseudo-instruction get turned into?
+lui $1, 0xffffb357 and ori $8, $1, 0x0000c0de
+B.5: What is the machine code for these instructions? (In hexadecimal!)
+0x3c01b367 and 0x3428c0de
